@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "64e0639eccaa8577de66c00d775aff42",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1660,6 +1660,66 @@
                 }
             ],
             "time": "2021-11-21T11:48:40+00:00"
+        },
+        {
+            "name": "learn2torials/modular-laravel",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/learn2torials/modular-laravel.git",
+                "reference": "c9f0e9bca90787337e408f9b71f2d9bc716ffed9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/learn2torials%2Fmodular-laravel/repository/archive.zip?sha=c9f0e9bca90787337e408f9b71f2d9bc716ffed9",
+                "reference": "c9f0e9bca90787337e408f9b71f2d9bc716ffed9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=8.0"
+            },
+            "type": "project",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "L2T\\Modular\\Providers\\AppServiceProvider",
+                        "L2T\\Modular\\Providers\\RouteServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "L2T\\Modular\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sandip Patel",
+                    "email": "sandip254@gmail.com",
+                    "homepage": "https://learn2torials.com"
+                }
+            ],
+            "description": "Create laravel modular app using laravel modular plugin",
+            "homepage": "https://learn2torials.com",
+            "keywords": [
+                "laravel modular app",
+                "laravel8",
+                "laravel8 modular plugin",
+                "modular",
+                "package"
+            ],
+            "support": {
+                "issues": "https://gitlab.com/api/v4/projects/23729917/issues"
+            },
+            "time": "2021-07-17T17:49:27+00:00"
         },
         {
             "name": "monolog/monolog",
